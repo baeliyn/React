@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.号 {
+  border: 1px solid rgb(194, 174, 174);
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.号:hover {
+  cursor: pointer;
+}
+
+.号:focus {
+  border: 1px solid black;
+}
+
+.ボタン {
+  border: 0;
+  min-width: 2rem;
+  height: 1rem;
+  margin: 2px;
+}
+
+.ついている {
+  background-color: rgb(2, 58, 2);
+  color: white;
+}
+
+.実行:hover {
+  cursor: pointer;
+  background-color: darkslategrey;
+  color: white;
+}

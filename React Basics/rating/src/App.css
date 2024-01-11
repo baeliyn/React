@@ -1,0 +1,16 @@
+* {
+  color: rgb(207, 207, 207);
+  background-color: rgb(71, 71, 71);
+}
+
+#range {
+  width: 15rem;
+}
+
+.gross {
+  margin: 2rem;
+  border: none;
+  background-color: rgb(155, 124, 124);
+  width: 10rem;
+  height: 2rem;
+}
